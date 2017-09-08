@@ -11,4 +11,8 @@ SOURCES += \
     structure.c \
     thread.c \
     custom_malloc.c \
-    test.c
+    test.c \
+    even_odd.c \
+    file_text.c \
+    string_descending.c \
+    sum.c
