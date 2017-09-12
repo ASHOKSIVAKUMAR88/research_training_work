@@ -13,6 +13,7 @@ void main(void)
 {
     MINE g= {10,-10,'a'};
     printf("%d %hd %c \n",  g.a, g.b, g.c );
+    printf("Address %p %p %p \n",  &g.a, &g.b, &g.c );
     function(g);
 	return;
 }
