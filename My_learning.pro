@@ -27,8 +27,32 @@ SOURCES += \
     IPC/sem2.c \
     IPC/shared1.c \
     IPC/shared2.c \
-    IPC/shared_memory.c
+    IPC/shared_memory.c \
+    IPC/posix/sem1.c \
+    IPC/posix/sem2.c \
+    IPC/posix/semaphore.c \
+    system/limit.c \
+    system/sys_info.c \
+    sorting/insertion_sort.c \
+    sorting/selection_sort.c \
+    sorting/m_bubble_sort.c \
+    sorting/bubble_sort.c \
+    sorting/quick_sort.c \
+    sorting/merge_sort.c
 
 DISTFILES += \
     a.out \
-    README.md
+    README.md \
+    IPC/a.out \
+    IPC/m \
+    IPC/message_queue \
+    IPC/msg_rm \
+    IPC/rcv \
+    IPC/sem1 \
+    IPC/sem2 \
+    IPC/shared2 \
+    IPC/good.txt \
+    IPC/posix/a.out \
+    IPC/posix/sem1 \
+    IPC/posix/sem2 \
+    system/a.out
