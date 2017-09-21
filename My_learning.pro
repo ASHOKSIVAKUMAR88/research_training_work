@@ -38,7 +38,20 @@ SOURCES += \
     sorting/m_bubble_sort.c \
     sorting/bubble_sort.c \
     sorting/quick_sort.c \
-    sorting/merge_sort.c
+    sorting/merge_sort.c \
+    sorting/Assignment/bubble_sort.c \
+    sorting/Assignment/insertion_sort.c \
+    sorting/Assignment/m_bubble_sort.c \
+    sorting/Assignment/merge_sort.c \
+    sorting/Assignment/quick_sort.c \
+    sorting/Assignment/selection_sort.c \
+    awesome_works/divisible_not.c \
+    sorting/Assignment/as/bubble_sort.c \
+    sorting/Assignment/as/insertion_sort.c \
+    sorting/Assignment/as/m_bubble_sort.c \
+    sorting/Assignment/as/merge_sort.c \
+    sorting/Assignment/as/quick_sort.c \
+    sorting/Assignment/as/selection_sort.c
 
 DISTFILES += \
     a.out \
@@ -55,4 +68,8 @@ DISTFILES += \
     IPC/posix/a.out \
     IPC/posix/sem1 \
     IPC/posix/sem2 \
-    system/a.out
+    system/a.out \
+    sorting/a.out \
+    sorting/Assignment/a.out \
+    awesome_works/a.out \
+    sorting/Assignment/as/a.out
